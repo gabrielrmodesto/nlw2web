@@ -7,7 +7,7 @@ export default function TeachersList() {
 	return (
 		<div id="page-teacher-list" className="container">
 			<PageHeader title="Estes sao os proffys disponiveis">
-				<form action="" id="search-teachers">
+				<form id="search-teachers">
 					<div className="input-block">
 						<label htmlFor="subject">Materia</label>
 						<input type="text" id="subject" />
